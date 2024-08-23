@@ -1,6 +1,5 @@
 *{
     background-color: #D8E9F7;
-    font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
     box-sizing:border-box
@@ -26,7 +25,7 @@ main{
     display: flex;
     margin-bottom: 50px;
     margin-left: 200px;
-    
+    font-family: 'Inter';
 
 }
 
@@ -38,6 +37,7 @@ main{
     width: 1000px;
     text-transform: lowercase;
     text-align: center;
+    font-family: 'Inter';
 }
 
 ::placeholder{color: #0A3871; }
@@ -117,6 +117,10 @@ main{
     padding-bottom: 5px;  
     text-align: center;
     font-family: "Permanent Marker", cursive;
-    font-size: 60px;
+    font-size: 10px;
+
 }
+
+    
+
 
