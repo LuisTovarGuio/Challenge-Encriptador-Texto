@@ -1,0 +1,128 @@
+*{
+    background-color: #D8E9F7;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 200px;
+    width: 8%;  
+}
+
+.encabezado{
+    display: flex;
+    margin-left: 900px;
+    margin-top: 5px;
+    color: #1D77C3;
+    font-family: "Permanent Marker", cursive;
+    font-size: 58px;
+    
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    
+
+}
+
+.text-area{
+    border: color(black);
+    color: #0A3871;
+    margin-top: 90px;
+    border-radius: 25px;
+    width: 1000px;
+    text-transform: lowercase;
+    text-align: center;
+}
+
+::placeholder{color: #0A3871; }
+    .text-area:focus{
+        outline: none;
+    }
+
+.informacion{
+    font-family: 'Inter';
+    font-size: 30px;
+    color: rgb(104, 101, 105);
+    
+
+}
+
+.mensaje{
+    background: white;
+    background-image: url(/imagenes/pensativo.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    border: none;
+    border-radius: 25px;
+    color: #0A3871;
+    margin-left: 80px;
+    margin-top: 90px;
+    padding-left: 20px;
+    width: 1000px;
+
+}
+
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    gap: 50px;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 25px;
+    color: aliceblue;
+    cursor: pointer;
+    height: 70px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+    background-color: #42BFDD;
+    border: 1px solid #42BFDD;
+    border-radius: 25px;
+    color:#0A3871;
+    cursor: pointer;
+    height: 70px;
+    width: 328px;
+}
+
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 25px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+    margin-left: 400px;
+    margin-top: 200px;
+    
+    
+}
+
+.footer{
+    
+    border: 4px solid #23AB9A;
+    border-radius: 25px;
+    padding-bottom: 5px;  
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 30px;
+}
+        
+        
+
+     
+
